@@ -24,7 +24,7 @@ class Setting
     {
         return [
             'settings' => [
-                'displayErrorDetails' => true, // set to false in production
+                'displayErrorDetails' => false, // set to false in production
 
                 'logger' => [
                     'name' => 'slim-app',
